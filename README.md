@@ -17,10 +17,10 @@
 
 <h2>Lab 2: Fine-Tuning FLAN-T5 with PEFT and LoRA</h2>
 
-<p><strong>Objective:</strong> The primary goal of this lab is to enhance the summarization capabilities of the FLAN-T5 model through full fine-tuning and Parameter-Efficient Fine-Tuning (PEFT), incorporating prompt instructions for improved performance.</p>
+<p><strong>Objective:</strong> The primary goal of this Task is to enhance the summarization capabilities of the FLAN-T5 model through full fine-tuning and Parameter-Efficient Fine-Tuning (PEFT), incorporating prompt instructions for improved performance.</p>
 
 <ul>
-  <li><strong>Setting Up:</strong> Similar to Lab 1, we begin by setting up the environment and installing all the necessary libraries required for the task.</li>
+  <li><strong>Setting Up:</strong> Similar to Task 1, we begin by setting up the environment and installing all the necessary libraries required for the task.</li>
   <li><strong>Data Preparation:</strong> The dataset is prepared and loaded along with the original FLAN-T5 model and tokenizer to facilitate the fine-tuning process.</li>
   <li><strong>Fine-Tuning Strategies:</strong> We compare different fine-tuning strategies, including full fine-tuning and PEFT, to determine their impact on the model's summarization ability.</li>
   <li><strong>Instruction Fine-Tuning:</strong> A convenience function is utilized to tokenize the dataset and wrap it with prompts for instruction-based fine-tuning.</li>
