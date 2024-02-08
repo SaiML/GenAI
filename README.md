@@ -31,5 +31,5 @@
   <li><strong>Model Comparison:</strong> Sample prompts from the test dataset are used to evaluate both the instruction fine-tuned and PEFT models, with ROUGE metrics providing a comparative analysis of the models' performance.</li>
 </ul>
 
-<p>This lab offers a comprehensive exploration of fine-tuning strategies for the FLAN-T5 model, showcasing the significant potential of prompt engineering and parameter-efficient techniques in enhancing the model's ability for specific tasks like dialogue summarization.</p>
+<p>This Task offers a comprehensive exploration of fine-tuning strategies for the FLAN-T5 model, showcasing the significant potential of prompt engineering and parameter-efficient techniques in enhancing the model's ability for specific tasks like dialogue summarization.</p>
 
