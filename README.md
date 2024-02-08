@@ -33,3 +33,21 @@
 
 <p>This Task offers a comprehensive exploration of fine-tuning strategies for the FLAN-T5 model, showcasing the significant potential of prompt engineering and parameter-efficient techniques in enhancing the model's ability for specific tasks like dialogue summarization.</p>
 
+
+<h2>Task 3: Mitigating Toxicity with RLHF</h2>
+
+<p><strong>Objective:</strong> The focus of Task 3 is to utilize Reinforcement Learning with Human Feedback (RLHF) to reduce the toxicity levels in the outputs of the instruction fine-tuned FLAN-T5 model developed in Lab 2.</p>
+
+<ul>
+  <li><strong>Introduction to RLHF:</strong> We start with an overview of RLHF, a cutting-edge technique designed to refine model outputs based on human evaluators' feedback, specifically targeting toxicity reduction in generated text.</li>
+  <li><strong>Environment Setup:</strong> Necessary Python libraries such as PyTorch, transformers, datasets, evaluate, Peft (Parameter-Efficient Fine-Tuning), and trl (Textual Reinforcement Learning) are installed.</li>
+  <li><strong>Model and Data Preparation:</strong> We load the instruction fine-tuned model from Lab 2 and prepare the dataset for RLHF, including tokenization and prompt wrapping techniques.</li>
+  <li><strong>Toxicity Evaluation Model:</strong> A toxicity evaluation model (Facebook's RoBERTa model for hate speech detection) is used to classify texts and optimize the RLHF process towards generating non-toxic outputs.</li>
+  <li><strong>Sentiment Analysis Pipeline:</strong> A sentiment analysis pipeline is established for simplifying text classification tasks, aiding in the overall detoxification effort.</li>
+  <li><strong>Evaluation and Optimization:</strong> An evaluation mechanism calculates mean toxicity scores, guiding the reinforcement learning process to effectively reduce toxicity.</li>
+  <li><strong>PPO Training:</strong> The PPOTrainer, initialized with the model from Lab 2, undergoes training to minimize toxicity through RLHF, adjusting outputs based on predefined human feedback.</li>
+  <li><strong>Quantitative and Qualitative Analysis:</strong> Post-training, the model's performance is assessed through both quantitative toxicity scores and qualitative analysis of the generated text, demonstrating the effectiveness of the RLHF approach.</li>
+</ul>
+
+<p>Task3 3 showcases the practical application of RLHF in enhancing language models by reducing toxicity, highlighting the potential of such techniques in improving the safety and quality of AI-generated content.</p>
+
